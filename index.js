@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Define a GET route for '/'
-app.get("/api", (req, res) => {
+app.get("/api/gg", (req, res) => {
   res.send("Hello, World!");
 });
 
