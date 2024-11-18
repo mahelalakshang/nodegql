@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // Define a GET route for '/'
 app.get("/api/gg", (req, res) => {
-  res.send("Hello, World!");
+  res.send("Hello, World1!");
 });
 
 // Define a POST route for demonstration
