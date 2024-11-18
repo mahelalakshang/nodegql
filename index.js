@@ -11,12 +11,12 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Define a GET route for '/'
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("Hello, World!");
 });
 
 // Define a POST route for demonstration
-app.post("/data", (req, res) => {
+app.post("/api/data", (req, res) => {
   const { name } = req.body;
   res.json({ message: `Hello, ${name}!` });
 });
